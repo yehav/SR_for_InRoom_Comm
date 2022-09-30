@@ -1,0 +1,9 @@
+cff-version: 1.0.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Alkaher"
+  given-names: "Yehav"
+title: "Speech Reinforcement for In-Room Communications"
+version: 1.0.0
+date-released: 2022-09-30
+url: "https://github.com/yehav/SR_for_InRoom_Comm"
