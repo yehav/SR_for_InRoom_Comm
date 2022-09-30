@@ -2,7 +2,7 @@
 ## by Yehav Alkaher
 ## Preface
 This code implements a speech reinforcement system & algorithm.
-The files include two main demonstration scripts that correspond to 			papers:
+The files include two main demonstration scripts that correspond to papers:
 * Temporal Howling Detector for Speech Reinforcement Systems
 	* Authors:
 	Yehav Alkaher, Prof. Israel Cohen
@@ -12,10 +12,11 @@ The files include two main demonstration scripts that correspond to 			papers:
 	Yehav Alkaher, Prof. Israel Cohen
 		* Andrew and Erna Viterbi Faculty of Electrical and Computer Engineering, Technion – Israel Institute of Technology, Haifa, Israel
 	* Citation:
-Alkaher Y and Cohen  I (2022) Dual-Microphone Speech Reinforcement System With Howling-Control for In-Car Speech Communication. _Front. Sig. Proc._ 2:819113. doi: 10.3389/frsip.2022.819113
+Alkaher Y and Cohen I (2022) Dual-Microphone Speech Reinforcement System With Howling-Control for In-Car Speech Communication. _Front. Sig. Proc._ 2:819113. doi: 10.3389/frsip.2022.819113
 
 
 ## Code
+MATLAB Version: R2017b
 ### Main scripts and functions:
 * Temporal Howling Detector Demo:
 	* 'effect_of_two_pole_TF_main_script.m'
@@ -27,9 +28,9 @@ Alkaher Y and Cohen  I (2022) Dual-Microphone Speech Reinforcement System With
 
 #### Inner-Function References:
 	* Room Impulse Responses (RIRs) extracted via the RIR 	Generator:
-		Habets, E. A. (2006). Room impulse response generator. 	Technische Universiteit Eindhoven, Tech. Rep 2, 1
+		Habets, E. A. (2006). Room impulse response generator. Technische Universiteit Eindhoven, Tech. Rep 2, 1
 	* ISO226:2003:
-		Christopher Hummersone (2021). ISO 226:2003 Normal equal-	loudness-level contours (https://github.com/IoSR-	Surrey/MatlabToolbox), GitHub. Retrieved July 11, 2021.
+		Christopher Hummersone (2021). ISO 226:2003 Normal equal-loudness-level contours (https://github.com/IoSR-Surrey/MatlabToolbox), GitHub. Retrieved July 11, 2021.
 	* STOI:
 		Copyright 2009: Delft University of Technology, Signal & Information Processing Lab. The software is free for non-commercial use. This program comes WITHOUT ANY WARRANTY.
 	* PESQ:
